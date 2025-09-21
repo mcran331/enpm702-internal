@@ -15,7 +15,6 @@ int main() {
   double forward_move{};
   double left_deg{};
   double right_deg{};
-  // char backwards_select{};
 
   // Put this outside the main loop so it only appears in the beginning.
   std::cout << "Welcome to the Robot Simulator!\n\n";
@@ -48,7 +47,8 @@ int main() {
 
           // Check if user_input is valid
           if (std::cin.fail()) {
-            std::cout << "************You must input a decimal number to move forward!************\n\n";
+            std::cout << "\n*********ROAR ERROR MONSTER HAS BEEN AWOKEN*********\n";
+            std::cout << "************You must input a decimal number to move forward and silence the error monster!************\n\n";
             std::cin.clear();
             std::cin.ignore(1000, '\n');
             continue;
@@ -97,7 +97,8 @@ int main() {
 
           // Check if user_input is valid
           if (std::cin.fail() || left_deg < 0) {
-            std::cout << "************You must input a positive decimal number to turn!************\n\n";
+            std::cout << "\n*********ROAR ERROR MONSTER HAS BEEN AWOKEN*********\n";
+            std::cout << "************You must input a positive decimal number to turn and silence the error monster!************\n\n";
             std::cin.clear();
             std::cin.ignore(1000, '\n');
             continue;
@@ -132,7 +133,8 @@ int main() {
 
           // Check if user_input is valid
           if (std::cin.fail() || right_deg < 0) {
-            std::cout << "************You must input a positive decimal number to turn!************\n\n";
+            std::cout << "\n*********ROAR ERROR MONSTER HAS BEEN AWOKEN*********\n";
+            std::cout << "************You must input a positive decimal number to turn and silence the error monster!************\n\n";
             std::cin.clear();
             std::cin.ignore(1000, '\n');
             continue;
@@ -173,8 +175,8 @@ int main() {
           }
         }
         catch (int err) { // Report there has been an error and return to main menu
-          std::cout << "\nERROR " << err << "\n";
-          std::cout << "\n************You must enter an integer from 1-5!************\n\n\n";
+          std::cout << "\nERROR MONSTER " << err << "\n";
+          std::cout << "\n************You must enter an integer from 1-5 to silence the error monster!************\n\n\n";
           std::cin.clear();
           std::cin.ignore(1000, '\n');
         }
