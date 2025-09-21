@@ -1,0 +1,49 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_custom_command"
+		],
+		"files" : 
+		[
+			"assignment1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "assignment1_cpp::@543bd34b06d2f505cb54"
+		}
+	],
+	"id" : "memcheck::@543bd34b06d2f505cb54",
+	"name" : "memcheck",
+	"paths" : 
+	{
+		"build" : "assignment1",
+		"source" : "assignment1"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

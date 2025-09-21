@@ -1,0 +1,6 @@
+/home/mckenzie/enpm702-assignments-ws/build/CMakeFiles/edit_cache.dir
+/home/mckenzie/enpm702-assignments-ws/build/CMakeFiles/rebuild_cache.dir
+/home/mckenzie/enpm702-assignments-ws/build/assignment1/CMakeFiles/assignment1_cpp.dir
+/home/mckenzie/enpm702-assignments-ws/build/assignment1/CMakeFiles/memcheck.dir
+/home/mckenzie/enpm702-assignments-ws/build/assignment1/CMakeFiles/edit_cache.dir
+/home/mckenzie/enpm702-assignments-ws/build/assignment1/CMakeFiles/rebuild_cache.dir

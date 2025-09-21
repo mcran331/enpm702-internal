@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/mckenzie/enpm702-assignments-ws/build/assignment1",
+  "command": "/usr/bin/c++  -I/home/mckenzie/enpm702-assignments-ws/assignment1/include -g -std=gnu++17 -Wall -Wextra -o CMakeFiles/assignment1_cpp.dir/src/assignment1.cpp.o -c /home/mckenzie/enpm702-assignments-ws/assignment1/src/assignment1.cpp",
+  "file": "/home/mckenzie/enpm702-assignments-ws/assignment1/src/assignment1.cpp",
+  "output": "assignment1/CMakeFiles/assignment1_cpp.dir/src/assignment1.cpp.o"
+}
+]

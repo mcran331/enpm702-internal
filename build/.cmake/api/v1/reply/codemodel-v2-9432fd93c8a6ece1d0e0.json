@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "assignment1",
+					"jsonFile" : "directory-assignment1-Debug-81021ca224e12be86d72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "assignment1",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "assignments"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "assignment1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "assignment1_cpp::@543bd34b06d2f505cb54",
+					"jsonFile" : "target-assignment1_cpp-Debug-5117acc31787619cea20.json",
+					"name" : "assignment1_cpp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "memcheck::@543bd34b06d2f505cb54",
+					"jsonFile" : "target-memcheck-Debug-910d1f39310214dc2ee6.json",
+					"name" : "memcheck",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mckenzie/enpm702-assignments-ws/build",
+		"source" : "/home/mckenzie/enpm702-assignments-ws"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
